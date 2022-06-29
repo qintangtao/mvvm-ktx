@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Qt/Qt5.12.2/Licenses/github/mvvm-ktx/mvvm-state/src/main/res/layout/default_empty_view.xml" value="0.24375" />
+        <entry key="..\:/Qt/Qt5.12.2/Licenses/github/mvvm-ktx/mvvm-state/src/main/res/layout/default_error_view.xml" value="0.36820652173913043" />
+        <entry key="..\:/Qt/Qt5.12.2/Licenses/github/mvvm-ktx/mvvm-state/src/main/res/layout/default_loading_view.xml" value="0.36820652173913043" />
+        <entry key="..\:/Qt/Qt5.12.2/Licenses/github/mvvm-ktx/mvvm-state/src/main/res/layout/default_net_error_view.xml" value="0.36820652173913043" />
+        <entry key="..\:/Qt/Qt5.12.2/Licenses/github/mvvm-ktx/mvvm/src/main/res/drawable-v24/progress_loading_bg.xml" value="0.1" />
         <entry key="..\:/Qt/Qt5.12.2/Licenses/github/mvvm-ktx/mvvm/src/main/res/layout/custom_progress_dialog_view.xml" value="0.24375" />
       </map>
     </option>
