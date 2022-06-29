@@ -1,0 +1,50 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        dataBinding true
+        //viewBinding true
+    }
+}
+
+dependencies {
+
+    api rootProject.ext.mds
+    api rootProject.ext.network
+    //api rootProject.ext.androidxs
+    api rootProject.ext.androidx['appcompat']
+    api rootProject.ext.androidx['material']
+    api rootProject.ext.androidx['extensions']
+    api rootProject.ext.androidx['viewmodel-ktx']
+    api rootProject.ext.dependencies['live-event-bus']
+    api rootProject.ext.dependencies['utilcodex']
+    api rootProject.ext.dependencies.coroutines
+
+}

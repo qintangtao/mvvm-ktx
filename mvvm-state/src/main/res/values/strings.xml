@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">mvvm-state</string>
+    <string name="state_loading">正在加载</string>
+    <string name="state_error">加载失败</string>
+    <string name="state_net_error">网络异常,请检查网络</string>
+    <string name="state_empty">这里什么都没有</string>
+    <string name="state_click_and_retry">点击重试</string>
+</resources>

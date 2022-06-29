@@ -1,0 +1,26 @@
+<resources>
+
+    <declare-styleable name="StateLayout">
+        <attr name="state_loading_layout" format="reference" />
+        <attr name="state_error_layout" format="reference" />
+        <attr name="state_net_error_layout" format="reference" />
+        <attr name="state_empty_layout" format="reference" />
+
+        <attr name="state_loading_barColor" format="color" />
+        <attr name="state_error_src" format="reference" />
+        <attr name="state_net_error_src" format="reference" />
+        <attr name="state_empty_src" format="reference" />
+
+        <attr name="state_loading_text" format="string" />
+        <attr name="state_error_text" format="string" />
+        <attr name="state_net_error_text" format="string" />
+        <attr name="state_empty_text" format="string" />
+
+        <attr name="state_textColor" format="color" />
+        <attr name="state_textSize" format="dimension" />
+
+
+    </declare-styleable>
+
+
+</resources>
